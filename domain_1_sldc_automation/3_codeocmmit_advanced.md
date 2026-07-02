@@ -19,3 +19,7 @@ CodeCommit -> EventBridge -> AWS/SNS/CodepipeLine/Lambda
 
 ### Codecommit PR Approval Rules
 - ensures quality of code by requriring users to approve PRS before code can be merged
+- specify a pool of users to approve and the number of users who must approve the PR (i.e. pool of 5, need 2 approvals)
+- Specify IAM Principal ARN 
+- Approval Rule Templates--for any PR on a branch
+
