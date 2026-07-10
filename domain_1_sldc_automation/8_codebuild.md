@@ -18,7 +18,7 @@ Java, ruby, python, go, node.js, android, .net core php, docker -> extend the en
 - instructions can run long, can cache some files in s3 to speed up reruns
 - logs can be stored in S3 or CloudWatch Logs
 
-## buildspec.yml
+## `buildspec.yml`
 - at root
 - `env` allows you to define environment variables `env.variables` in plaintenxt, from SSM values from parameter store, from variables stored in AWS secrets manager
 - `phases` - specify commands to run
@@ -39,3 +39,5 @@ Java, ruby, python, go, node.js, android, .net core php, docker -> extend the en
 - You can specify VPC configuration VPC, subnet, security groups etc
 - then your builds can access resouces in your VPC (i.e. RDS, elsaticache, ec2, alb)
 - good for integration tests, data query, internal load balancers etc
+
+# Hands On

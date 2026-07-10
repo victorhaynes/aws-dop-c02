@@ -92,3 +92,12 @@ v1 (Blue) Instancs only
 13. [`AffterBlockTraffic`] - can run scripts here ->
 14. End
 
+## Deploymeny Configuration
+- Can control speed
+`AllAtOnce`
+`HalfAtATime`
+`OneAtATime`
+`Custom`
+
+## Triggers
+- CodeDeploy publishes deployment events to SNS
