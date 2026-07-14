@@ -1,0 +1,1 @@
+# AWS Distro for OpenTelemetry
