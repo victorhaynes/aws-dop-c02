@@ -1,1 +1,15 @@
 # Amazon GuardDuty
+- Intelligent threat discovery to protect your account
+- ML, anomly detection
+- one click, 30 day trial
+- Input data incudes
+    - `CloudTrail Logs`
+        - CloudTrail Event logs
+        - CloudTrail MAangement events
+        - CloudTrail S3 data events
+    - `VPC Flow logs`
+    - `DNS logs`
+    - Optiona lfeatures EKS auduit logs, rds/aurora, ebs, lambda, s3 etc
+- Can setup EB rules to be notified in cases of findings (SNS or Lambda)
+- Event rules can target AWS lambda or SNS
+- Can protect against CryptoCurrency attacks (has a dedicated finding for it) `EXAM`
