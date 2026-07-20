@@ -1,12 +1,12 @@
 ## AWS CodeCommit
 - Version control backed by `git` technology
-- Typically integrated with a entral online repo
+- Typically integrated with a central online repo
 - pro-collaboration
 - view-ability, auditable
 - code back ups
 
 AWS Code Commit
-- pricate git repos
+- private git repos
 - no size limit
 - managed, highly available
 - code only in AWS cloud account
@@ -15,7 +15,7 @@ AWS Code Commit
 ### Security
 - can use standard `git` commands
 ### Authentication
-- SSH Keys AWS Users can configure SSH keys in their AM Console
+- SSH Keys AWS Users can configure SSH keys in their IAM Console
 - HTTPS with AWS CLI Credential helper or Git Credentials for IAM user
 ### Authorization
 - IAM policies manage users/roles perms to repos
@@ -24,7 +24,7 @@ AWS Code Commit
 - Encrypted in transit, must use HTTPS or SSH
 
 ### Cross-account Access
-- Use IAM role in your AWS accoutn and use AWS STS Assume (AssumeRole API)
+- Use IAM role in your AWS account and use AWS STS Assume (AssumeRole API)
 
 
 # Hands On Part 1

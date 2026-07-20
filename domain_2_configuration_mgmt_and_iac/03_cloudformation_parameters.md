@@ -34,4 +34,4 @@ Such as
 - basically default variables that can be `!Ref`'d and exist by default
  `AWS::` `AccountId`/`Region`/`StackId`,`StackName`,`NotificationARNs`,`NoValue`
 
- So you can sue something like `AWS::Region` and it is provided/selfaware
+ So you can use something like `AWS::Region` and it is provided/selfaware

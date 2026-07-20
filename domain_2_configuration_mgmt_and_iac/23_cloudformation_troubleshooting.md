@@ -1,6 +1,6 @@
 # CF Troubleshooting `EXAM`
 - `DELETED_FAILED` stack deletion failed. Some things must be emptied before deleting such as S3. Use a Custom Resource with Lambda Function to automate some actions. you also cannot delete a security group if other EC2 instances are using it
-- Can sue DeletionPolicy=Retain to skip deletion
+- Can use DeletionPolicy=Retain to skip deletion
 
 - `UPDATE_ROLLBACK_FAILED`
 - could be caused by manual changes, insufficient ASG signals, insufficient IAM permissions

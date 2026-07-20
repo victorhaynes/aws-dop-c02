@@ -10,5 +10,5 @@
 - FGW auto up to date with the S3 buckets
 - Ensures users do not have stale data on file hares
 - No need for manual or periodic invocations
-- Cna still sue RefreshCAche API
+- Cna still use RefreshCAche API
 
