@@ -5,7 +5,7 @@ RDS Read replicas vs Multi AZ
 ## RDS Read Replicas
 - helps you scale reads
 - Up to 15 read replicas, within AZ, cross AZ, or cross region `EXAM` all important
-- ASYNC replication between the main RDS DB instance and the main one
+- ASYNC replication between the main RDS DB instance and the others
     - ASYNC meaning they will EVENTUALLY be consistent
     - read replica can be promoted to its own DB (take it out of the replication )
 

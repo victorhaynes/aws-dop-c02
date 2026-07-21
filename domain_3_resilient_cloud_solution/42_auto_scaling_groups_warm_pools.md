@@ -1,6 +1,6 @@
 # Auto Scaling Groups Warm Pools
 
-## Scale out Latenchy Problem
+## Scale out Latency Problem
 - want to launch as fast as possible during ASG
 - some init/bootstrap is unavoidable
 - historicalyyou over-provision to absorb unexpected demand increase or use overloaded Golden Iamge to reduce boot time
@@ -8,7 +8,7 @@
 new solution
 ## Warm Pools
 - Reduces scale-out latency by maintaing a pool of pre-init instances
-- state is either staretd, stopped, or hibernated
+- state is either started, stopped, or hibernated
 - duing scale out warm pool instance -> live ASG
 
 Warm Pool Size Settings
@@ -30,11 +30,13 @@ Warm Pool Size Settings
 - costs: higher
 
 `Stopped`
+- ram lost
 - scale out delay: slower
 - start up delay: slower (ram is lost)
 - costs: lower 
 
-`Hibernated` (usually hwat you want for ASG cost savings)
+`Hibernated`
+- ram saved
 - scale out delay:  medium
 - start up delay:  medium (ram is maintained, faster than "stopped")
 - costs: lower

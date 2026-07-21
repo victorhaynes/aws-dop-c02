@@ -20,8 +20,9 @@ If you want to store aggregtation results like a computation result then ElastiC
 Stream Processing
 ### DynamoDB Streams
 - 24 hours retention
-limited # fo consumers
-- process using AWS Lmbda Triggerrs or DynamoDB Stream Kinesis Adapter
+limited # of consumers
+- process using AWS Lmbda Triggers or DynamoDB Stream Kinesis Adapter
+- `EXAM`
 
 ### Kinesis Data Stream
 - 1 year retention
@@ -33,6 +34,7 @@ limited # fo consumers
 - active-active replication
 - applications can READ and WRITE to the table in any region
 - must enable DynamoDB Streams as a pre-req
+- `EXAM`
 
 ### DynamoDB TTL
 - auto delete an item after expiry timestamp `ExpTime (TTL)` in an epoch timestamp

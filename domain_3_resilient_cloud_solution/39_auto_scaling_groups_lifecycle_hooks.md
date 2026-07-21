@@ -1,5 +1,5 @@
 # Auto Scaling Groups Lifecycle Hooks
-- By default as soon as an instancei s lanuched in an ASG it's in service
+- By default as soon as an instance is lanuched in an ASG it's in sservice
 - you can perform extra steps before the is instance goes ins ervice (pending state)
     - i.e. have instance run some script
     - use `EC2_Instance_Launching` Lifecycle Hook

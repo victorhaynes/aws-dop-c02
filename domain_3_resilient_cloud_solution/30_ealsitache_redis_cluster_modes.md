@@ -2,7 +2,7 @@
 2 modes
 
 ### Default `ElastiCache Replication: Cluster Mode Disabled`
-- One primary node, upto 5 replicas
+- One primary node, up to 5 replicas
 - One Shard, One Cache Primary Node, 0-5 Cache Replica Nodes
 - ASYNC replication
 - primary read/write

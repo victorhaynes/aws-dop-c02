@@ -16,6 +16,7 @@ Redis
 - data durability using AOF persistence
 - back up and restore features
 - supports sets and sorted sets (good for leaderboards) `EXAM`
+
 Memcached
 - multi-node for paritioning of data 
 - no high availability

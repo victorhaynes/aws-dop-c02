@@ -10,7 +10,7 @@ Can switch the traffic at once, or use weights
 
 .
 
-Can do the same at the Route53 level but clients cahe the DNS record so it is not as instance
+Can do the same at the Route53 level but clients cahe the DNS record so it is not as instant
 
 ### API Gateway
 - Prod stage connected to v1 application

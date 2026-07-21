@@ -1,6 +1,6 @@
 # Elastic Load Balancer ALB Rules Deep Dive
 - Processed in order (with Default Rule)
-- SupportedACtions (forward, redirect, fixed-response)
+- Supported Actions (forward, redirect, fixed-response)
 - Rule Conditions:
     - host-header
     - http-request-method

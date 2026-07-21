@@ -1,8 +1,8 @@
 # Amazon CloudWatch Metrics
-- CW provides metrics for every servie in AWS
+- CW provides metrics for every service in AWS
 - Metrics are variables to monitor (CPUUtilizaiton, NetworkIn)
 - Metrics belong to namespaces
-- Dimension: is an attr of a emtric (instance id, environment etc)
+- Dimension: is an attr of a metric (instance id, environment etc)
 - Up to 30 dimensions per metric
 - Metrics have timestamps/time based
 - When you have emtrics you can amake a dashboard

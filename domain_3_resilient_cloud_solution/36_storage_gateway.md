@@ -3,7 +3,7 @@
 - Allow on prem to seamelss use AWS cloud
 - brdige gap between on prem data and cloud data in S3
 
-- Types of Storage Gatway
+Types of Storage Gatway
 - File Gateway
 - Volume Gateway
 - Tape Gateway

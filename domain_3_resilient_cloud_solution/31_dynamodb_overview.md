@@ -26,7 +26,7 @@ Table Example
 - Sort Key -> makes up PK
 - Attributes
 
-## DynamoDB ReadWRite Capacity Modes
+## DynamoDB Read Write Capacity Modes
 - Control how you manage your table's capacity (read/writethroughput)
 
 - Provisioned Mode (default)

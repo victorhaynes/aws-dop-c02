@@ -11,9 +11,13 @@ Accessible by ipv4, ipv6, and `dualstack` -- which will resolve ipv4 or ipv6 jus
 - Note: AZ must be added/enabled or isntances to receive traffic
 
 ### NLB - PrivateLink Integration
-Service Consumer VPC
+If you have a:
 
-Service Provider VPC
+[Service Consumer VPC]
+
+and a
+
+[Service Provider VPC]
 
 if the IP CIDRs are olverlapping we cannot peer these VPCS.
 
