@@ -14,22 +14,23 @@ Can put logs into CW Logs or S3
 
 ## CouldTrail Events
 
-ManageMent Events
+`Management Events`
 - operations that are performed on resources in your AWS account
-- Example
-    -configuring security
-    - netowrk rules
-    - logging
+
+Examples:
+- configuring security
+- netowrk rules
+- logging
 - by default trails are configured to log all maangeemnt events
 - can separate read events (no-mod) from write events if you want to
 
-Data Events
+`Data Events`
 - by default events are `not logged `(becasue high volume operations)
 - surprisingly, things like S3 object level activity (GetObject, DleteObject,PuObject) if you want this you need to turn it on
 - Can separate writes from reads
 - AWS lambda functio nexecution activity (the Invoke API)
 
-`CloudTrail Insights Events`
+## CloudTrail Insights Events
 - can be difficult to understand what looks odd or unusual 
 - enable/pay
 - will try to detect unusual activity in your account autoamtically
@@ -38,7 +39,8 @@ Data Events
 - bursts of AWS IAM action
 - gaps in periodic maintenance
 
-Analyzes normam aangement events to create a baseline
+Analyzes normal mangement events to create a baseline
+
 Continuously analyzes `write` events to detect unusual behavior
 
 ## CloudTrail Events retention

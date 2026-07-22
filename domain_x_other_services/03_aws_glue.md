@@ -1,5 +1,5 @@
-# AWSA Glue
-- mnaged ETL service (Extract, transform, load)
+# AWS Glue
+- manged ETL service (Extract, transform, load)
 - Useful to prepare and transform data for analytics
 - Fully Serverless service
 - Fully serverless service
@@ -15,18 +15,18 @@ S3 Put -> CSV -> use GLUE for ETL -> convert to Parquet -> target S3 bucket -> r
 To autoamte this you can put S3 event notifications to LAmbda and have Lambda or EventBridge invoke Glue
 
 ## Glue Data Catalog:
-- catalog o datasets
+- catalog of datasets
 - GLUE Data Crawler
     - S3
     - RDS
     - DynamodB
     - On-Prem JDBC database
-- writes metadata to the `Glue Data Catalog` will ahve all the DB table metadata
+- writes metadata to the `Glue Data Catalog` will have all the DB table metadata
 
 Then Amazon Athena, Amazon Redshift Spectrum Amazon EMR rely on the Glue Data Catalog
 
 ## Glue `EXAM` high level
-- `Glue Job Bookmarks`: preventsfrom re-processing old data
-- `Glue DataBrew`: clean and normalzie data using pre-built transformation
-- `Glue Studio`: GUI to create, run, monitor ETL jobs inGlue
-- `Glue Streaming ETL`: biuilt on Apache Spark Structured Streaming, compatible with Kinesis Data Streaming, Kafa, MSK (managed KAfka)
+- `Glue Job Bookmarks`: prevents from re-processing old data
+- `Glue DataBrew`: clean and normalize data using pre-built transformation
+- `Glue Studio`: GUI to create, run, monitor ETL jobs in Glue
+- `Glue Streaming ETL`: built on Apache Spark Structured Streaming, compatible with Kinesis Data Streaming, Kafa, MSK (managed KAfka)

@@ -5,18 +5,21 @@
 - Deploy on CloudFront
     - used to front other solutions: CLB, EC2 isntance, custom origins, S3 websites
 - Deploy on AppSync (protect GraphQL APIs)
-- WAF is not for DDos Protection - Shield s `EXAM`
+
+WAF is not for DDos Protection - Shield is `EXAM`
+
 - Define Web ACL (Access Control List)
-    - Rules can incldue IP addresses, HTTP headers, HTTP body, or URI strings
+    - Rules can include IP addresses, HTTP headers, HTTP body, or URI strings
     - Protects from common attack - SQL injection and Cross-Site Scripting (XSS)
     - Size constraints, Geo match
     - Rate-based rules (to count ocurences of events)
-- Rule ACtions: Count/Allow/Block/CAPTCHA/Challenge
+- Rule Actions: Count/Allow/Block/CAPTCHA/Challenge
 
 (Count is count the occurences but allow the traffic)
 
-`EXAM`
+
 # AWS WAF - Managed Rules
+`EXAM`
 - 190+
 - Ready to use from AWS and AWS Marketplace Sellers
 1. `Baseline Rule Groups`: general protecton from common threats

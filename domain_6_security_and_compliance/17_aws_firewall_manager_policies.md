@@ -13,7 +13,7 @@
 - Security Group Policy Type: Usage Audit Security SG Policy
     - find redundant or unused, optional clean up
 - Policy Type: Network Firewall
-    - Centrally maanged Network Firewall firewalls in all accounts in AWS Org
+    - Centrally manged Network Firewall firewalls in all accounts in AWS Org
     - Distributed - maintains firewall endpoint in each VPC
     - Centralized - maintains firewall endpoint in a centralized VPC
     - Import Existing Firewalls - import existing firewalls using REsoruce Sets

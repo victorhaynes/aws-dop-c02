@@ -4,7 +4,7 @@
 - `you essentially need to create the users and groups in the IAM Identity Center that are identical to the users and groups in the External IdP` manual duplication
 
 - Solution: `SCIM` protocol, automatic provisioning/sycnhoinzation of user identiites form an externala IdP  into IAM Identity Center
-    - Ssytem for Cross-domain Idnentity Manager
+    - System for Cross-domain Idnentity Manager `EXAM`
     - Must be supported by the external IdP
 
 

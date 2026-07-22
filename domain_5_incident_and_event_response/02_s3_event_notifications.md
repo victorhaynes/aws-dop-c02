@@ -5,7 +5,7 @@
 
 S3 events can target SNS, SQS, or Lambda
 
-If you want S3 to integrat with SNS then S3 (or SQS or Lambda) needs a resource access policy that allwos s3 to call it
+If you want S3 to integrate with SNS then S3 (or SQS or Lambda) needs a resource access policy that allwos s3 to call it
 
 `reminder`
 `IAM policies` are for idenities (does not require a prinicipal, I am the principal)

@@ -21,7 +21,7 @@ Guardrails
 - detective - using AWS config (detect whether MFA for the root user is enabled
 - ex. identify non-compliant resource (e.g., untagged resources)
 
-## Guardrail LEvels
+## Guardrail Levels
 Mandatory
 - auto enabeld and enforced by AWS Control Tower
 - example disallow public read access to the log archive account

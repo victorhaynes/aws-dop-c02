@@ -12,7 +12,7 @@
     - built in store in IAM identity center
     - 3rd party Active Directory (AD), OneLogin, Octa
 
-    100% reocmmended for multiple account environments
+    100% recommended for multiple account environments
 
 
     Use Permission Sets to define what users have access to what
@@ -29,7 +29,7 @@
         - SSO access to many SAML 2.0 business applications
         - Provide required URLs, certifcates, and metadata
 
-    - Attribute-ased Access Control (ABAC)
+    - Attribute-based Access Control (ABAC)
         - Fine-grained perms based on user's attrs stored in IAM Identity Center Identity Store
         - Example: cost center, title, locale
-        - Use casE: Define permissions once, then modify AWS access by chaning the attrs
+        - Use case: Define permissions once, then modify AWS access by chaning the attrs

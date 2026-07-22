@@ -11,7 +11,7 @@
 - Rules are applied to new resoruces as they are created (good for compliance) across all and future accounts in your Org
 
 
-## WAF vs Firewall MAanger vs Shield
+## WAF vs Firewall Maanger vs Shield
 - used together for comprehesve protection
 - define your Web ACL rules in WAF
 - for granular protection of your resources, WAF alone is the correct choice

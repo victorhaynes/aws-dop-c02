@@ -1,7 +1,8 @@
 # AWS Config
 - helps with auditing and recording compliance of our AWS resoruces
 - helps recocd configurations and changes over time
-- Questions that can be olved by AWWS Config
+
+Questions that can be solved by AWS Config:
 - unrestricted SSH access to my SGs
 - do my buckets hav any. publci access?
 - how has my ALB config changed over times?

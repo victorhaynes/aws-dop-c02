@@ -8,11 +8,14 @@ Hierarchy
                 - OU HR
                 - OU Finance
 
-`EXAM` OrganizationAccountAccessRole
+`EXAM`
+
+`OrganizationAccountAccessRole`:
+
 If we create a member account from the AWS Organization API/Service:
 - that member account autoamtically gets `OrganizationAccountAccessRole`
 - Performs admin duties
-- Used o perform admin tasks (by mgmt account) in the member accounts
+- Used to perform admin tasks (by mgmt account) in the member accounts
 - can be assumed by IAM users in the mgmt account if enabled
 - If you invite a pre-exiting account then you need to create the role manually
 

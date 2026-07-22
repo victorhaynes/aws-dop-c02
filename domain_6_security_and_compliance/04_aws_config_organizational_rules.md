@@ -1,6 +1,6 @@
 # AWS Config Organizational Rules
-- AWS Config Rule that yo ucan amange across all accoutns witin an AWS Organization
-- Looks simialr to conformance packs, and yes it is similar
+- AWS Config Rule that you can amange across all accounts witin an AWS Organization
+- Looks similar to conformance packs, and yes it is similar
 
 ## Difference
 Organization Rules

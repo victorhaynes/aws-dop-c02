@@ -4,7 +4,7 @@
 - Integrations with 
     - EC2. isntall the X-Ray agent
     - ECS - agent r docker container
-    - LAmbda
+    - Lambda
     - Beanstalk autoamtically
     - API Gateway (good for 504s)
 - The X-Ray agent or services need IAM permissions to X-Ray
