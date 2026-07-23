@@ -11,9 +11,9 @@ Can start a workflow with SDK call, API, Gateway, Event Bridge, Manual etc.
 
 
 ## Step Function Tasks STates
-- Do some work in your state machine
-- Invoke one AWS service
-- I.e. write to DynamoDB
+- task state definition: i.e. do some work in your state machine
+    - Invoke one AWS service
+    - I.e. write to DynamoDB
 
 or
 

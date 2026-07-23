@@ -5,7 +5,11 @@
 - Configure diff settings such as stack name, change set name, tempalte, params, iam role, action mode etc
 
 ### Example
+- Inside CodePipeline pipeline:
+- CodeBuild builds the app/CF yaml 
 - `CREATE_UPDATE` mode - create or update an existing cloudformation stack
+- CodeBuild tests the deployed test infra
+- Deploy the real infra to prod
 
 CloudFormation
 [CodePipeline]
@@ -16,10 +20,13 @@ Cloud Formatoin Deploys Infra & app -> runs test suite on the stack via HTTP (fu
 ![alt text](image.png)
 -> If all passes then also deploy to Prod via `CREATE_UPDATE` action
 
-### CF as target
+## CF as target
+CodePipeline /w CloudFormation as a Target:
+
 `Action Modes`
-- Create or REplace aChange Set, execute achange set
+- Create or Replace a Change Set, execute achange set
 - create or update s tack, delte a stack, repalce a failed stack
+
 `Template Parameter Overrides`
 - Specify a JSON object ot override param values
 - Can be an input artifact for CodePipeline

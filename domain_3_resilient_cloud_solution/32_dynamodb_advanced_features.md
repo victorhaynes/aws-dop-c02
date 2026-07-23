@@ -30,7 +30,7 @@ limited # of consumers
 - Process using AWS Lambda, Kinesis Data analytics, KDF/ADF, Glue Streamin ETL
 
 ### DynamoDB Global Tables
-- make a dynamoDB tabel ccessible with low latency in multiple regions
+- make a dynamoDB table accessible with low latency in multiple regions
 - active-active replication
 - applications can READ and WRITE to the table in any region
 - must enable DynamoDB Streams as a pre-req
@@ -43,7 +43,7 @@ limited # of consumers
 
 ### DynamoDB for DR
 - `continuous backup with PITR`
-- Optionally nebaled for last 35 days
+- Optionally enbaled for last 35 days
 - pick anytime in the window
 - recovery creates new table
 
