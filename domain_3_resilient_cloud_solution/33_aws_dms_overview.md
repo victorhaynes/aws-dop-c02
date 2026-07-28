@@ -2,7 +2,7 @@
 - Quickly and securely migrate databases to AWS, resilient, self healing
 - The sourcce db ermains available during the migraiton
 - Supports homogenous and heterogeneous migratio n(i.e. Microsoft SQL Server -> Aurora or Oracele t Oracle)
-- Continuous Data Replication using CDC
+- Continuous Data Replication using SCT
 - You must create an EC2 instance to perform the replication tasks
 
 ### DMS Sources and Targets

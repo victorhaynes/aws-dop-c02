@@ -11,4 +11,4 @@ OpsItems
 
 i.e.
 
-CloudWatch, EventBridger, Security Hub, Config, SSM Incident Manager, DevOps Guru etc all agregate
+CloudWatch, EventBridge, Security Hub, Config, SSM Incident Manager, DevOps Guru etc all aggregate

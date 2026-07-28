@@ -18,7 +18,7 @@ NoEcho
 ![alt text](image-1.png)
 good for passwords
 
-## How to Refernece a  PArameter
+## How to Refernece a  Parameter
 
 `!Ref` is the short hand in YAML or longly, `Fn:Ref`
 
@@ -30,7 +30,7 @@ Such as
             - !Ref HTTPSecurityGroup
 ```
 
-## CloudFormation - Psuedo PArameters
+## CloudFormation - Psuedo Parameters
 - basically default variables that can be `!Ref`'d and exist by default
  `AWS::` `AccountId`/`Region`/`StackId`,`StackName`,`NotificationARNs`,`NoValue`
 

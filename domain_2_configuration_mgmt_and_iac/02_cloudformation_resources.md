@@ -7,10 +7,10 @@ Delcarative AWS resource outlining
 - Can automate deletion and scaffold
 - Automated generation of diagram for your templates
 
-Can use tempaltes on the web to help/inspire
+Can use templates on the web to help/inspire
 
 ## Basically works like Terraform
-- Tempaltes must be uplaoded in S3 and referenced in CloudFormation
+- Templates must be uploaded in S3 and referenced in CloudFormation
 
 ## Deploying CloudFormation
 - Manual way
@@ -28,7 +28,7 @@ Template
 - `Outputs` references to what has been created
 - `Conditionals` - list of conditions to perform resoure creation
 
-Tempalte Helpers
+Template Helpers
 - References
 - Functions
 

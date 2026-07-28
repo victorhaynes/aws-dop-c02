@@ -23,10 +23,10 @@ old ASG will get terminated, new one will replace it
 ## CodeDeploy Agent
 - must be installed
 - can be installed manually or automatically using Ssytems Manager
-- EC2 instnaces must have sufficient permissions to access Amazon S2 to get deployment bundles (i.e. revisions are stored in S3)
+- EC2 instances must have sufficient permissions to access Amazon S3 to get deployment bundles (i.e. revisions are stored in S3)
 
 ## CodeDeploy - Lambda Paltform
-- CodeDeploy cna help you automated tarffic shift for LAmbda aliases
+- CodeDeploy can help you automate traffic shift for Lambda aliases
 Feature is integrated within the SAM framework
 
 Ex.

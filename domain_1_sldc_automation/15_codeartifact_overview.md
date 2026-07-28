@@ -1,7 +1,7 @@
 # AWS CodeArtifact
 - software packages depend on each other to be built (dependencies), and new ones are created 
 - storing and retrieving these dependencies is called artifact management
-- traditionally you need to setup your ow nartifact management system
+- traditionally you need to setup your own artifact management system
 - `CodeArtifact is a secure scalable and cost effective artifact management for software dev
 - works with commons tools like Maven, Gradle, npm, yarn, twine, pip, NuGet etc
 - Devs and CodeBuild can then retrievew dependencies straight from CodeArtifact
@@ -17,7 +17,7 @@ All Artifacts will live inside your VPC
 - instead of devs running npm or pip, CodeBuild can pul from CodeArtifact itself also
 
 ## CodeArtifact Event Bridge Integration
-- CodeARtifact ->EventBridger-> Lambda/Step Functions/SNS/SQS/CodePipeline->CodeCommit->Codebuild->CodeDeploy
+- CodeARtifact ->EventBridge-> Lambda/Step Functions/SNS/SQS/CodePipeline->CodeCommit->Codebuild->CodeDeploy
 
 
 ## Resource Policy

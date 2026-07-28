@@ -15,7 +15,7 @@ Not directly a Beanstalk feature but you can implement this pattern. Additional 
 
 ## Elastic Beanstalk - Traffic Splitting
 - Canary Testing
-- New application versio nis deployed to a temporary ASG with the same capcity
+- New application version is deployed to a temporary ASG with the same capcity
 - A small % of the traffic is sent to the temp ASG for a configurable amount of time
 - Deployment health of new temp ASG is monitored. Can trigger quick automated rollback
 - No application downtime

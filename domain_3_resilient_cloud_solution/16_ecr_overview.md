@@ -6,6 +6,6 @@
 - Fully integrated with ECS, backed by Amazon S3
 - Assign an IAM role to our EC2 instance
 - ECR access provided by IAM
-- ECR provides image vulnerability scanning, verisoning, tages, lifecyles
+- ECR provides image vulnerability scanning, verisoning, tags, lifecyle
 
 Think Docker images storage `EXAM`

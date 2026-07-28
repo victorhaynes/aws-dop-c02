@@ -4,7 +4,7 @@
 - Serverless, scalable, durable, easy SDK
 - Version tracking of configuration / secrets
 - Security through IAM
-- Notifications with Amazon EventBridger
+- Notifications with Amazon EventBridge
 - Integration with CloudFormation
 
 ## SSM Parameter Store Hierarchy

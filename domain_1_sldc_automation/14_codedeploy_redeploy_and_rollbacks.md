@@ -27,7 +27,7 @@ Reasons
 - CodeDeploy Service Role or IAM instance profile might not have requried perms
 - You are using an HTTP Proxy, configure CodeDeploy Agent with `:proxy_uri`: param
 
-Failures can be interecept in EventBridger
+Failures can be interecept in EventBridge
 
 # Troubleshooting ASGs
 - if ASG scales-out during a deployment you can get a mixed v1 and v2 state, but CodeDeploy will move all to green/v2 automatically

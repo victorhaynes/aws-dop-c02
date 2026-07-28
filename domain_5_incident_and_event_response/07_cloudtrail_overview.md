@@ -33,8 +33,8 @@ Examples:
 ## CloudTrail Insights Events
 - can be difficult to understand what looks odd or unusual 
 - enable/pay
-- will try to detect unusual activity in your account autoamtically
-- inaccrate resorucep rovisioning
+- will try to detect unusual activity in your account automatically
+- inaccurate resource provisioning
 - hitting service limits
 - bursts of AWS IAM action
 - gaps in periodic maintenance
@@ -45,4 +45,4 @@ Continuously analyzes `write` events to detect unusual behavior
 
 ## CloudTrail Events retention
 - Events are stored for 90 days in CloudTrail by default
-- To keep events beyond this perio, log them to S3 and use Athena if you want to analyze them
+- To keep events beyond this period, log them to S3 and use Athena if you want to analyze them

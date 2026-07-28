@@ -1,5 +1,5 @@
 # AWS Control Tower Landing Zones
-- Autoamtically provsioned, secure, and complioant multi-account env based on AWS best practices
+- Autoamtically provsioned, secure, and cocompliantcommplioant multi-account env based on AWS best practices
 - Consists of:
     - AWS Orgs
     - Account Factory

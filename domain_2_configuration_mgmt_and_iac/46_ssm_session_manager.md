@@ -3,7 +3,7 @@
 - access through AWS console, AWS CLI or Session Manager SDK
 - Does not need SSH access, bastion hosts, or SSH keys
 
-EC2 intance runs the SSM agent, has correct IAM permissions, user has IAM permissions also
+EC2 instance runs the SSM agent, has correct IAM permissions, user has IAM permissions also
 
 Same mechanism as the run command feature
 

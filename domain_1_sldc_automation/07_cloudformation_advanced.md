@@ -9,7 +9,7 @@ Parallel actions using a stage using RunOrder for parallelism
 Deploy to pre-prod before deploying to prod
 ![alt text](image-3.png)
 
-# CodePipeline & EventBridger
+# CodePipeline & EventBridge
 - detect and react to changes in execution states (i.e. intercept failures at certain stages)
 
 # Arbitrary API call from Codepipeline

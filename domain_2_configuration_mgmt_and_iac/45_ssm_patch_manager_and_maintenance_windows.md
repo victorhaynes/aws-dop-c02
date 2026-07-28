@@ -1,6 +1,6 @@
 # SSM Patch Manager and Maintenance Windows
-- autoamtes the process of patching maanged instances
-- OS udpates application updates security updates...
+- automates the process of patching managed instances
+- OS updates application updates security updates...
 - supports ec2 and on prem
 - linux, mac, windows
 - on demand or on a window
@@ -12,14 +12,14 @@
 - by default install only critical patches and patches related to security
 
 2) Patch Groups
-- associate a set of instances with a speciifc pathc baseline
+- associate a set of instances with a speciifc patch baseline
 - example create patch groups for differnt environments (Dev, test, prod)
 - instances should be defined with the tag key `Patch Group`
 - an instance can only be in one Patch Group
 - Patch Group can be registered wit only one Patch Baseline
 
 
-## PAtch BAselines
+## Patch Baselines
 - predefined patch baseline
 - defined by AWS/managed
 

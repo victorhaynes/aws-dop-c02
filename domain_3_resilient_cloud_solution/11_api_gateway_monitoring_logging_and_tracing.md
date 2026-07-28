@@ -9,7 +9,7 @@ X-Ray
 - enable tracing to get info about requests in API gateway
 - X-ray API gateway + AWS lambda gives you the full picture
 
-## CloudWatch MEtrics `EXAM` relevant
+## CloudWatch Metrics `EXAM` relevant
 - `CacheHitCount` & `CacheMissCount`
 - gives feedback on the efficiency of the cache
 - `Count` number of total API requests in a given period
@@ -24,7 +24,7 @@ Maximum amount of time is `29` seconds
 ## Throttling
 Account Limit
 - Requests at 10,000 rps across all API
-Soft limit taht can be increased upon request
+Soft limit that can be increased upon request
 - Incase of throttling -> 429 too many requests
 - can set stage limits & method limits
 - Can define a Usage Plan to throttle per customer

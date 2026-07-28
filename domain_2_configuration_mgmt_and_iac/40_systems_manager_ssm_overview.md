@@ -9,11 +9,11 @@
 
 # Features
 Node Tools
-- `Fleet Maanger`
+- `Fleet Manager`
 - Compliance
 - `Inventor`
 - `Hybrid Activations`
-- `Session Maanger`
+- `Session Manager`
 - `Run Command`
 - `State Manager`
 - `Patch Manager`

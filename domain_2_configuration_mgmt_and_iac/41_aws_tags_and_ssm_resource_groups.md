@@ -8,7 +8,7 @@
 Rule of thumb, too many is better than too few
 
 ## Resoure Groups
-- Create view or maange logical grouping of resoruces thanks to tags
+- Create view or manage logical grouping of resoruces thanks to tags
 i.e. Dev resource gorup vs Prod resource group
 - Regional Service/Concept
 - Works with many resources

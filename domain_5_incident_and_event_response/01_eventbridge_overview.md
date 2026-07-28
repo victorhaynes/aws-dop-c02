@@ -12,7 +12,7 @@ Or you can make a `custom event bus`
 - you can archive events (all/filter) sent to an event bus (indefinitely or set period)
 - can replay archived events
 
-## EventBridge Scham Registry
+## EventBridge Schema Registry
 - EB infer the schema
 - The Schema Registry allows you to generate code for your application that will know in advance how data is structured in the event bus
 - Schema can be versioned

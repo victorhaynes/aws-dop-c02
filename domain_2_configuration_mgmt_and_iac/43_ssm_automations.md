@@ -1,6 +1,6 @@
 # SSM Automations
-- simplifies ocmmon maintenance and deployment tasks of EC2 instances and other AWS resource
-- Example restart instane, create an AMI, EBS, snapshot
+- simplifies common maintenance and deployment tasks of EC2 instances and other AWS resource
+- Example restart instance, create an AMI, EBS, snapshot
 
 Automations our OUTSDE the instance, Run Command inside the instance
 

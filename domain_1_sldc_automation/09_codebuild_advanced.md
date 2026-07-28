@@ -11,7 +11,7 @@
 - pulled from SSM Parameter Store or Secrets Manager
 
 ## Codebuild - Security
-- Codebuild Service Role appls CB to access AWS resoruces on your behalf
+- Codebuild Service Role allows CB to access AWS resoruces on your behalf
 i.e. download CodeCommit code, upload to S3
 - in transit and at rest encryption
 - build output artifact encryption
@@ -25,9 +25,9 @@ i.e. download CodeCommit code, upload to S3
 ## CodeBuild Triggers
 Multiple ways...
 
-CodeCommit->EventBridger->trigger CodeBuild
+CodeCommit->EventBridge->trigger CodeBuild
 
-CodeCommit->EventBridger->Lambda->trigger Codebuild
+CodeCommit->EventBridge->Lambda->trigger Codebuild
 
 Github->Webhook->CodeBuild
 

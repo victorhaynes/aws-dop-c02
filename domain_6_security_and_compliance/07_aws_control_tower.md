@@ -2,17 +2,17 @@
 - easy way to setup and govern a secure and compliant multi account AWS env based on best practices
 
 - benefits
-    - atuoamted the setup of your environment in a few clicks
+    - automated the setup of your environment in a few clicks
     - automate ongoing policy mgmt using guardrails
     - detect policy violations and remediate them
     - monitor compliance through an interactive dashboard
-- AWS contro ltower runs on top of AWS organizations
-    - it autoamtically sets up AWS orgs to organize accounts and implement SCPs (Service Control Policies)
+- AWS control tower runs on top of AWS organizations
+    - it automatically sets up AWS orgs to organize accounts and implement SCPs (Service Control Policies)
 
 ### AWS Control Tower Account Factory
 - Automates account provisioning and deployments
 - Enabels you to create pre-approved baseliens and configuration options for AWS accounts inyour org (VPC default cnoconfigfig, subnets, region)
-- Uses AWS Service Cataog to provision new AWS accounts
+- Uses AWS Service Catalog to provision new AWS accounts
 
 ## Control Tower - Detect and Remediate Policy Violations
 Guardrails

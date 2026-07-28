@@ -10,4 +10,4 @@
 ## Cache Invalidation
 - with a specific header `header: Cache-Control:max-age=0`
 or from the UI (with IAM auth)
-- highly important to contorl this with IAM & ui config otherwise anyone can send the header and spike your costs
+- highly important to control this with IAM & ui config otherwise anyone can send the header and spike your costs

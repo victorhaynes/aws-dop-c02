@@ -14,7 +14,7 @@ PUT
 Worker Tier = SQS + EC2
 
 # Notifcations
-- Create Rules in EventBridger to act to the following events
+- Create Rules in EventBridge to act to the following events
 - Environment Operations Status - create, update, termiante (start, success, fail)
 - Other Resources Status 
 - Managed Update Status

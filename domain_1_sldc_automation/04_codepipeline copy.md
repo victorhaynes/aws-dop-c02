@@ -1,5 +1,5 @@
 # AWS CodePipeline
-- visualworkflwo for CICD orchestration
+- visual workflow for CICD orchestration
 - source codecommit, ecr, s3, github etc
 - build codebuild, jenkins, cloudbees, teamcity etc
 - test codebuild, aws device farm, 3rd party tools
@@ -7,21 +7,21 @@
 - invoke - lambda, step functions
 
 
-Conssits of stages:
-- stages can have sequential or aprallel actions
+Consits of stages:
+- stages can have sequential or parallel actions
 - i.e. build-test-deploy-load testing
-- manual approval can be defiend at any stage
+- manual approval can be defined at any stage
 
 # CodePipline - Artifacts
 - each pipeline stage can create artifacts
-- artifcats stored in an S3 bucket passed onto the next stage
+- artifacts stored in an S3 bucket passed onto the next stage
 i.e. CodeCommit outputs ot S3, Codebuild takes input from S3 then outputs artifact to S3, CodeDeploy then inputs the artifact for deployment
 
 # Troubleshooting
 - CloudWatch Events (EventBridge)
-- can ceate events for failed pipelines
+- can create events for failed pipelines
 - can create events for cancelled stages
-- If pipelien can't perform action make sure the IAM Service Role has enough permissions
+- If pipeline can't perform action make sure the IAM Service Role has enough permissions
 - CloudTrail can be used to adut AWS API calls still
 
 # Hands On

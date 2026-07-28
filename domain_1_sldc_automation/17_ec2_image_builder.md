@@ -22,7 +22,7 @@ Cloud Formation -> EC2 Image Builder -> new AMI
 AWS CloudFormation -> rolling update to an ASG -> ASG instances will use the new AMI
 
 ## Extras: Share using RAM
-- Use AWS Resource Access Maanger, to share Images, Recipes, and Components across AWS accounts or through AWS Organization
+- Use AWS Resource Access Manger, to share Images, Recipes, and Components across AWS accounts or through AWS Organization
 
 ## Tracking the latest AMI
 - store the ID of the latest AMI in SSM Parameter Store

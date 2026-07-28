@@ -3,10 +3,11 @@
 ## SSM - Documents
 - written in JSON or YALM
 - define parameters
-- defien actions
+- define actions
 - many docs exist in AWS
-![alt text](image-9.png)
 - can be used to run commands
+
+![alt text](image-9.png)
 
 or
 
