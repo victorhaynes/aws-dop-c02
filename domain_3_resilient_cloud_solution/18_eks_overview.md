@@ -4,8 +4,8 @@
 - Alternative to ECS but different API
 - k8s is open source while ECS is not
 
-- EKS supports `EC2` if you awnt to deploy worker nodes or `Fargate` to deploy serverless containers
-- Use case: already on k8s and wants to use AWS to managed k9s
+- EKS supports `EC2` if you want to deploy worker nodes or `Fargate` to deploy serverless containers
+- Use case: already on k8s and wants to use AWS to managed k8s
 - k8s is cloud agnostic `EXAM` great fo migration
 
 ### EKS Diagram
@@ -17,8 +17,8 @@ Managed Node Groups
 - Nodes are part of an ASG managed by EKS
 - Supports On-Demand or Spot instances
 
-Self Maanged Nodes
-- nodes created by you registed to the EKS cluster and maanged by an ASG
+Self Managed Nodes
+- nodes created by you registed to the EKS cluster and managed by an ASG
 - on demand or spot
 - chose your ami
 

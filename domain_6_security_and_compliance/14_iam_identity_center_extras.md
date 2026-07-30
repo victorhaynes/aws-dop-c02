@@ -3,8 +3,8 @@
 - Does NOT provide a way to query the IdP to learn about users and groups
 - `you essentially need to create the users and groups in the IAM Identity Center that are identical to the users and groups in the External IdP` manual duplication
 
-- Solution: `SCIM` protocol, automatic provisioning/sycnhoinzation of user identiites form an externala IdP  into IAM Identity Center
-    - System for Cross-domain Idnentity Manager `EXAM`
+- Solution: `SCIM` protocol, automatic provisioning/sycnhronization of user identiites from an external IdP  into IAM Identity Center
+    - System for Cross-domain Identity Manager `EXAM`
     - Must be supported by the external IdP
 
 

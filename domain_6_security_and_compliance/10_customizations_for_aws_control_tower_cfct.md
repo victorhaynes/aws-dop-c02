@@ -1,10 +1,10 @@
 # Customizations for AWS Control Tower (CfCT)
 - Framework for Control Tower
-- GitOps-tyle customization framework created by AWS
+- GitOps-style customization framework created by AWS
 - Helps you add customizations to your landing zone using your custom CF templates and SCPs
 - automatcally deploy resources to new AWS accounts created using Account Factoy
 
-- NOTE: CfCT is different from AFC 
+- NOTE: CfCT is different from AFC (Account Factor Customization; blueprint) 
 
 CfCT: many CF tempaltes and SCPs
 
